@@ -30,31 +30,34 @@ header {
 }
 .sticky-header {
     background-color: #404eed;
-    min-height: 4rem;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
-.not-sticky-header {
-    padding: 1.5rem 0;
+/* Navigation bar on header */
+.sticky-header > nav {
+    min-height: 4rem;
 }
 
 .sticky-header > nav > div {
     width: 20%;
 }
 
+/* Text ink on navigation bar */
 .sticky-header > nav > ul {
     width: 60%;
-}
 
-#nav-subbar {
     list-style: none;
     justify-content: center;
 }
 
+.not-sticky-header {
+    padding: 1.5rem 0;
+}
+
 /* Main */
-manin > section {
+main > section {
     padding: 2.5rem 0;
 }
 
