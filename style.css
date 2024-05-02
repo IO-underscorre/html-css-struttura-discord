@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+[class^=container].container-narrow , [class^=container].container-wide {
+    margin: auto;
+    width: 95%;
+}
+
+.container-narrow {
+    max-width: 1000px;
+}
+
+.container-wide {
+    max-width: 1250px;
+}
+
+.sticky-header {
+    min-height: 4rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav-subbar {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
