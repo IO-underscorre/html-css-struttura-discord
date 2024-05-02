@@ -150,12 +150,6 @@ main .container-wide {
     border: 2px dotted white;
 }
 
-.nav-details {
-    min-height: 35rem;
-    background-color: red;
-    border: 2px dotted white;
-}
-
 footer nav > a {
     background-color: bisque;
     border: 2px dotted white;
