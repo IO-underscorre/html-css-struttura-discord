@@ -48,7 +48,7 @@ header {
 /* Text ink on navigation bar */
 .sticky-header > nav > ul {
     width: 60%;
-
+    
     list-style: none;
     justify-content: center;
 }
@@ -98,8 +98,58 @@ footer > section:first-child {
 .nav-details {
     width: calc(100%/6);
 }
+
+
+
+/* DEBUG DEBUG DEBUG */
+.container-narrow {
+    min-height: 35rem;
+    background-color: violet;
+    border: 2px dashed black;
+}
+
+.container-wide {
+    min-height: 35rem;
+    border: 2px dashed black;
+    background-color: aquamarine;
+}
+
+.sticky-header > nav > div {
+    background-color: bisque;
+    border: 2px dotted white;
+}
+
+.column-img {
+    min-height: 35rem;
+    background-color: purple;
+    border: 2px dotted white;
+}
+
+.column-txt {
+    min-height: 35rem;
+    background-color: yellowgreen;
+    border: 2px dotted white;
+}
+
+.socials-and-lang  {
+    min-height: 35rem;
+    background-color: orange;
+    border: 2px dotted white;
+}
+
+.nav-details  {
+    min-height: 35rem;
+    background-color: red;
+    border: 2px dotted white;
 }
 
 .nav-details {
-    width: 20%;
+    min-height: 35rem;
+    background-color: red;
+    border: 2px dotted white;
+}
+
+footer nav > a {
+    background-color: bisque;
+    border: 2px dotted white;
 }
